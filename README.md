@@ -5,3 +5,5 @@
 在游戏目录下加一个mic目录，包含
 DOTA2.mp4，LM.mp4，WS.mp4和
 Zedd - Ignite.flac
+
+软件工程文件上传错了，没放到一个文件夹里，过两天再弄弄
