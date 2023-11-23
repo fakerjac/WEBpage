@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--// css -->
+<!-- font -->
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</head>
+<body> 
+<!-- Header -->
+	<div class="header">
+		<!-- Navbar -->
+		<nav class="navbar navbar-default">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a  href="index.html"><h1>Games <img src="images/c1.png" alt=" " /> Zone</h1></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hover-effect"><a href="index.html">Home</a></li>
+						<li class="hover-effect"><a href="about.html">About</a></li>
+						<li class="hover-effect"><a href="games.html">Games</a></li>
+						<li class="hover-effect"><a href="news.html">News</a></li>
+						<li class="hover-effect"><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+		<!-- //Navbar -->
+
+		<!-- Slider -->
+		<div class="slider">
+			<ul class="rslides" id="slider">
+				<li>
+					<img src="images/banner3.jpg" alt="" />
+				</li>
+				<li>
+					<img src="images/banner2.jpg" alt="" />
+				</li>
+				<li>
+					<img src="images/banner1.jpg" alt="" />
+				</li>
+			</ul>
+		</div>
+		<!-- //Slider -->
+
+	</div>
+	<!-- Banner-Slider-JavaScript -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 800,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+	</script>
+	<!-- //Banner-Slider-JavaScript -->
+	<!-- //Header -->
+
+<!-- trend -->
+<div class="trend-w3layouts">
+	<div class="container">
+		<h2>Trending Games</h2>
+		<ul id="flexiselDemo1">			
+				<li>
+					<div class="trend-grid">
+						<h4>竞速游戏</h4>
+						<img src="images/tg1.jpg" alt=" " class="img-responsive" />
+					</div>
+				</li>
+				<li>
+					<div class="trend-grid">
+						<h4>3D 游戏</h4>
+						<img src="images/tg2.jpg" alt=" " class="img-responsive" />
+					</div>
+				</li>
+				<li>
+					<div class="trend-grid">
+						<h4>动作游戏</h4>
+						<img src="images/tg3.jpg" alt=" " class="img-responsive" />
+					</div>
+				</li>
+				<li>
+					<div class="trend-grid">
+						<h4>玩具游戏</h4>
+						<img src="images/tg4.jpg" alt=" " class="img-responsive" />
+					</div>
+				</li>
+			</ul>
+						<script type="text/javascript">
+							$(window).load(function() {
+								$("#flexiselDemo1").flexisel({
+									visibleItems: 4,
+									animationSpeed: 1000,
+									autoPlay: true,
+									autoPlaySpeed: 3000,    		
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: { 
+										portrait: { 
+											changePoint:480,
+											visibleItems: 2
+										}, 
+										landscape: { 
+											changePoint:640,
+											visibleItems:3
+										},
+										tablet: { 
+											changePoint:768,
+											visibleItems: 4
+										}
+									}
+								});
+								
+							});
+					</script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	</div>
+</div>
+<!-- //trend -->
+
+
+<!-- services-->
+<div class="services-agileits-w3layouts">
+	<div class="container">
+		<h3>services</h3>
+		<div class="col-md-3 service-grid-agileits service-grid-agileits-top">
+			<span class="glyphicon glyphicon-sort-by-attributes" aria-hidden="true"></span>
+			<h4>游戏排行榜</h4>
+			<p>我们在这里为您罗列了最近一段时间内，在各大游戏平台上最受欢迎的游戏</p>
+			<a href="news.html">Read More</a>
+		</div>
+		<div class="col-md-3 service-grid-agileits">
+			<span class="glyphicon glyphicon-random" aria-hidden="true"></span>
+			<h4>游戏介绍</h4>
+			<p>我在这里随意挑选了一个游戏为您介绍其详细信息</p>
+			<a href="single1.html">Read More</a>
+		</div>
+		<div class="col-md-3 service-grid-agileits service-grid-agileits-bottom">
+			<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+			<h4>游戏评价</h4>
+			<p>对于不同游戏，我们会对其性价比做出评价以供参考</p>
+			<a href="news.html">Read More</a>
+		</div>
+		<div class="col-md-3 service-grid-agileits service-grid-agileits-bottom">
+			<span class="glyphicon glyphicon-object-align-right" aria-hidden="true"></span>
+			<h4>游戏配置</h4>
+			<p>在此我们给出了部分游戏所需的硬件环境</p>
+			<a href="games.html">Read More</a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //services-->
+
+<!-- new games -->
+<div class="new-w3-agile">
+	<div class="container">
+		<h3>New Games</h3>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/ng1.jpg" alt=" " />
+			<div class="mask">
+				<a href="single1.html"><h4>点击这里</h4></a>
+				<p>了解更多游戏资讯</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/ng2.jpg" alt=" " />
+			<div class="mask">
+				<a href="single2.html"><h4>点击这里</h4></a>
+				<p>了解更多游戏资讯</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/ng3.jpg" alt=" " />
+			<div class="mask">
+				<a href="single3.html"><h4>点击这里</h4></a>
+				<p>了解更多游戏资讯</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/ng4.jpg" alt=" " />
+			<div class="mask">
+				<a href="single4.html"><h4>点击这里</h4></a>
+				<p>了解更多游戏资讯</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng5.jpg" alt=" " />
+			<div class="mask">
+				<a href="single5.html"><h4>点击这里</h4></a>
+				<p>了解更多游戏资讯</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng6.jpg" alt=" " />
+			<div class="mask">
+				<a href="single6.html"><h4>点击这里</h4></a>
+				<p>了解更多游戏资讯</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng7.jpg" alt=" " />
+			<div class="mask">
+				<a href="single7.html"><h4>点击这里</h4></a>
+				<p>了解更多游戏资讯</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng8.jpg" alt=" " />
+			<div class="mask">
+				<a href="single8.html"><h4>点击这里</h4></a>
+				<p>了解更多游戏资讯</p>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //new games-->
+
+
+
+<div class="services-bottom-w3-agileits">
+		<div class="container">
+			<div class="wthree_info">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="wthree_info_grid">
+									<h3>League Of Legends</h3>
+									<p>经典的三线22塔模式，以摧毁对方的水晶枢纽为目标。</p>
+									<a href="single2.html" class="learn">Learn More</a>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_info_grid">
+									<h3>The Witcher 3: Wild Hunt</h3>
+									<p>GameSpot 2015年度最佳PS4/PSV游戏</p>
+									<a href="single7.html" class="learn">Learn More</a>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_info_grid">
+									<h3>Final Fantasy XV</h3>
+									<p>2016年7月，E3 2016大赏Game Critics Awards上获得最佳角色扮演游戏奖项。</p>
+									<a href="single8.html" class="learn">Learn More</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+						<!-- flexSlider -->
+							
+							<script defer src="js/jquery.flexslider.js"></script>
+							<script type="text/javascript">
+							$(window).load(function(){
+							  $('.flexslider').flexslider({
+								animation: "slide",
+								start: function(slider){
+								  $('body').removeClass('loading');
+								}
+							  });
+							});
+						  </script>
+						<!-- //flexSlider -->
+			</div>
+		</div>
+	</div>
+
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<div class="col-md-3 footer-left-w3">
+			<h4>联系我们</h4>
+			<ul>
+				<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></li>
+				<li><a href="mailto:1078971851@qq.com"><h6>107..@qq.com</h6></a></li>
+			</ul>
+			<ul>
+				<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></li>
+				<li><h6>+178..223</h6></li>
+			</ul>
+			<ul>
+				<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></li>
+				<li><h6>中国-长春-吉大</h6></li>
+			</ul>
+			<ul>
+				<li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></li>
+				<li><h6>010-57291804</h6></li>
+			</ul>
+		</div>
+		<div class="col-md-5 footer-middle-w3">
+			<h4>New Games</h4>
+			<div class="col-md-3 img-w3-agile">
+				<a href="single1.html"><img src="images/ng1.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile">
+				<a href="single2.html"><img src="images/ng2.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile">
+				<a href="single3.html"><img src="images/ng3.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile">
+				<a href="single4.html"><img src="images/ng4.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile footer-middle-wthree">
+				<a href="single5.html"><img src="images/ng5.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile footer-middle-wthree">
+				<a href="single6.html"><img src="images/ng6.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile footer-middle-wthree">
+				<a href="single7.html"><img src="images/ng7.jpg" alt=" " /></a>
+			</div>
+			<div class="col-md-3 img-w3-agile footer-middle-wthree">
+				<a href="single8.html"><img src="images/ng8.jpg" alt=" " /></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 footer-right-w3">
+			<a href="index.html"><h4>Games <img src="images/f1.png" alt=" " /> Zone</h4></a>
+			<p>本网站致力于提供最新的游戏资讯，给您推荐当下最受欢迎的游戏</p>
+			<p class="agileinfo">希望每个人都能找到你心中的那款游戏</p>
+			<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+            	src="mic/Zedd - Ignite.flac">
+	</audio>
+		</div>
+		<div class="clearfix"></div>
+		<div class="copyright">
+			<p>Copyright &copy; 2017.</a></p> 
+		</div>
+	</div>
+</div>
+
+<!-- //footer -->
+</body>
+</html>
